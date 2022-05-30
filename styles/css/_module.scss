@@ -1,0 +1,36 @@
+//color
+$primary:#fff; 
+$secondary:#FFB423;
+$thrirdly:#FDDB3A;
+$fourthly:#52575D;
+$fifthly:#363940;
+$bg-body:#F0FFF3;
+
+//mixin
+@mixin title{
+    color:$secondary;
+    font-size: 1.5em;
+    margin-top: 1em;
+    margin-bottom:1em;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1.4em;
+    letter-spacing: 1px;
+}
+@mixin secession{
+    border-bottom:1px solid rgba(250, 255, 255, 0.2) ;
+}
+@mixin sidePosition {
+       position: relative;
+       padding: 40px;
+    
+}
+
+@mixin center {
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin text{
+    color: $primary;
+}
